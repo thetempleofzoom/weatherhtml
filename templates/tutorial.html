@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sample website</title>
+</head>
+<body>
+    <nav>
+        <a href="/about/">about us</a>
+        <a href="/contact/">contact us</a>
+        <a href="/projects">projects</a>
+    </nav>
+    <h1>my sample webpage</h1>
+    <h2>with a smaller header</h2>
+    <p>Hello! howdy</p>
+        <!this syntax is important // note single/double quotes, use of 'filename' and static folder for pix>
+    <img src="{{url_for ('static', filename='cat.png')}}" style="width:300px">
+    <br>
+    <a href="https://google.com">google</a>
+</body>
+</html>
